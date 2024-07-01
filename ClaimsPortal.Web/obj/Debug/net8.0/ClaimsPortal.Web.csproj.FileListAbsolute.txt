@@ -149,3 +149,4 @@ D:\My Works\.NET Workspace\ClaimsPortal\ClaimsPortal.Web\obj\Debug\net8.0\refint
 D:\My Works\.NET Workspace\ClaimsPortal\ClaimsPortal.Web\obj\Debug\net8.0\ClaimsPortal.Web.pdb
 D:\My Works\.NET Workspace\ClaimsPortal\ClaimsPortal.Web\obj\Debug\net8.0\ClaimsPortal.Web.genruntimeconfig.cache
 D:\My Works\.NET Workspace\ClaimsPortal\ClaimsPortal.Web\obj\Debug\net8.0\ref\ClaimsPortal.Web.dll
+D:\My Works\.NET Workspace\ClaimsPortal\ClaimsPortal.Web\obj\Debug\net8.0\ClaimsPortal.Web.sourcelink.json

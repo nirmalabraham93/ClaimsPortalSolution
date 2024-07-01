@@ -13,3 +13,4 @@ D:\My Works\.NET Workspace\ClaimsPortal\ClaimsPortal.Service\obj\Debug\net8.0\Cl
 D:\My Works\.NET Workspace\ClaimsPortal\ClaimsPortal.Service\obj\Debug\net8.0\refint\ClaimsPortal.Service.dll
 D:\My Works\.NET Workspace\ClaimsPortal\ClaimsPortal.Service\obj\Debug\net8.0\ClaimsPortal.Service.pdb
 D:\My Works\.NET Workspace\ClaimsPortal\ClaimsPortal.Service\obj\Debug\net8.0\ref\ClaimsPortal.Service.dll
+D:\My Works\.NET Workspace\ClaimsPortal\ClaimsPortal.Service\obj\Debug\net8.0\ClaimsPortal.Service.sourcelink.json

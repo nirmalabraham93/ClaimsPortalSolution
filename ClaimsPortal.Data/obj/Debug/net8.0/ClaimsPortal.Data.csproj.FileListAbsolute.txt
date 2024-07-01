@@ -12,3 +12,4 @@ D:\My Works\.NET Workspace\ClaimsPortal\ClaimsPortal.Data\obj\Debug\net8.0\refin
 D:\My Works\.NET Workspace\ClaimsPortal\ClaimsPortal.Data\obj\Debug\net8.0\ClaimsPortal.Data.pdb
 D:\My Works\.NET Workspace\ClaimsPortal\ClaimsPortal.Data\obj\Debug\net8.0\ClaimsPortal.Data.genruntimeconfig.cache
 D:\My Works\.NET Workspace\ClaimsPortal\ClaimsPortal.Data\obj\Debug\net8.0\ref\ClaimsPortal.Data.dll
+D:\My Works\.NET Workspace\ClaimsPortal\ClaimsPortal.Data\obj\Debug\net8.0\ClaimsPortal.Data.sourcelink.json

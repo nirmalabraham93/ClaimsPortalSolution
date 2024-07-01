@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\My Works\\.NET Workspace\\ClaimsPortal\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DB42576B-E92D-4433-9163-9D5884CD4CDB}|ClaimsPortal.Web\\ClaimsPortal.Web.csproj|d:\\my works\\.net workspace\\claimsportal\\claimsportal.web\\views\\policy\\updatepolicy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DB42576B-E92D-4433-9163-9D5884CD4CDB}|ClaimsPortal.Web\\ClaimsPortal.Web.csproj|solutionrelative:claimsportal.web\\views\\policy\\updatepolicy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DB42576B-E92D-4433-9163-9D5884CD4CDB}|ClaimsPortal.Web\\ClaimsPortal.Web.csproj|d:\\my works\\.net workspace\\claimsportal\\claimsportal.web\\views\\policy\\viewpolicy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{DB42576B-E92D-4433-9163-9D5884CD4CDB}|ClaimsPortal.Web\\ClaimsPortal.Web.csproj|solutionrelative:claimsportal.web\\views\\policy\\viewpolicy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{CF2EDEBE-48CF-4EF2-A99A-7C86AA085A4F}|ClaimsPortal.Data\\ClaimsPortal.Data.csproj|d:\\my works\\.net workspace\\claimsportal\\claimsportal.data\\repositories\\policyrepository .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CF2EDEBE-48CF-4EF2-A99A-7C86AA085A4F}|ClaimsPortal.Data\\ClaimsPortal.Data.csproj|solutionrelative:claimsportal.data\\repositories\\policyrepository .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DB42576B-E92D-4433-9163-9D5884CD4CDB}|ClaimsPortal.Web\\ClaimsPortal.Web.csproj|d:\\my works\\.net workspace\\claimsportal\\claimsportal.web\\views\\policy\\updatepolicy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DB42576B-E92D-4433-9163-9D5884CD4CDB}|ClaimsPortal.Web\\ClaimsPortal.Web.csproj|solutionrelative:claimsportal.web\\views\\policy\\updatepolicy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ViewPolicy.cshtml",
               "DocumentMoniker": "D:\\My Works\\.NET Workspace\\ClaimsPortal\\ClaimsPortal.Web\\Views\\Policy\\ViewPolicy.cshtml",
               "RelativeDocumentMoniker": "ClaimsPortal.Web\\Views\\Policy\\ViewPolicy.cshtml",
@@ -38,12 +38,11 @@
               "RelativeToolTip": "ClaimsPortal.Web\\Views\\Policy\\ViewPolicy.cshtml",
               "ViewState": "AQIAACQAAAAAAAAAAAAAAC8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-30T23:48:02.309Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-30T23:48:02.309Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "PolicyRepository .cs",
               "DocumentMoniker": "D:\\My Works\\.NET Workspace\\ClaimsPortal\\ClaimsPortal.Data\\Repositories\\PolicyRepository .cs",
               "RelativeDocumentMoniker": "ClaimsPortal.Data\\Repositories\\PolicyRepository .cs",
@@ -51,25 +50,24 @@
               "RelativeToolTip": "ClaimsPortal.Data\\Repositories\\PolicyRepository .cs",
               "ViewState": "AQIAAEsAAAAAAAAAAAAowGYAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-30T23:39:34.495Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-30T23:39:34.495Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "UpdatePolicy.cshtml",
               "DocumentMoniker": "D:\\My Works\\.NET Workspace\\ClaimsPortal\\ClaimsPortal.Web\\Views\\Policy\\UpdatePolicy.cshtml",
               "RelativeDocumentMoniker": "ClaimsPortal.Web\\Views\\Policy\\UpdatePolicy.cshtml",
               "ToolTip": "D:\\My Works\\.NET Workspace\\ClaimsPortal\\ClaimsPortal.Web\\Views\\Policy\\UpdatePolicy.cshtml",
               "RelativeToolTip": "ClaimsPortal.Web\\Views\\Policy\\UpdatePolicy.cshtml",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAAB8AAAAHAAAA",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAACwAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-30T20:00:21.292Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "PolicyController.cs",
               "DocumentMoniker": "D:\\My Works\\.NET Workspace\\ClaimsPortal\\ClaimsPortal.Web\\Controllers\\PolicyController.cs",
               "RelativeDocumentMoniker": "ClaimsPortal.Web\\Controllers\\PolicyController.cs",
@@ -77,8 +75,7 @@
               "RelativeToolTip": "ClaimsPortal.Web\\Controllers\\PolicyController.cs",
               "ViewState": "AQIAANoAAAAAAAAAAAAswPIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-30T02:06:36.452Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-30T02:06:36.452Z"
             }
           ]
         }
