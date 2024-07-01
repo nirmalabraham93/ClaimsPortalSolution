@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\My Works\\.NET Workspace\\ClaimsPortal\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DB42576B-E92D-4433-9163-9D5884CD4CDB}|ClaimsPortal.Web\\ClaimsPortal.Web.csproj|d:\\my works\\.net workspace\\claimsportal\\claimsportal.web\\claimsportal.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DB42576B-E92D-4433-9163-9D5884CD4CDB}|ClaimsPortal.Web\\ClaimsPortal.Web.csproj|solutionrelative:claimsportal.web\\claimsportal.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DB42576B-E92D-4433-9163-9D5884CD4CDB}|ClaimsPortal.Web\\ClaimsPortal.Web.csproj|d:\\my works\\.net workspace\\claimsportal\\claimsportal.web\\views\\policy\\updatepolicy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{DB42576B-E92D-4433-9163-9D5884CD4CDB}|ClaimsPortal.Web\\ClaimsPortal.Web.csproj|solutionrelative:claimsportal.web\\views\\policy\\updatepolicy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -26,11 +30,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "ClaimsPortal.Web.csproj",
+              "DocumentMoniker": "D:\\My Works\\.NET Workspace\\ClaimsPortal\\ClaimsPortal.Web\\ClaimsPortal.Web.csproj",
+              "RelativeDocumentMoniker": "ClaimsPortal.Web\\ClaimsPortal.Web.csproj",
+              "ToolTip": "D:\\My Works\\.NET Workspace\\ClaimsPortal\\ClaimsPortal.Web\\ClaimsPortal.Web.csproj",
+              "RelativeToolTip": "ClaimsPortal.Web\\ClaimsPortal.Web.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-01T21:13:54.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ViewPolicy.cshtml",
               "DocumentMoniker": "D:\\My Works\\.NET Workspace\\ClaimsPortal\\ClaimsPortal.Web\\Views\\Policy\\ViewPolicy.cshtml",
               "RelativeDocumentMoniker": "ClaimsPortal.Web\\Views\\Policy\\ViewPolicy.cshtml",
@@ -42,7 +59,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "PolicyRepository .cs",
               "DocumentMoniker": "D:\\My Works\\.NET Workspace\\ClaimsPortal\\ClaimsPortal.Data\\Repositories\\PolicyRepository .cs",
               "RelativeDocumentMoniker": "ClaimsPortal.Data\\Repositories\\PolicyRepository .cs",
@@ -54,7 +71,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "UpdatePolicy.cshtml",
               "DocumentMoniker": "D:\\My Works\\.NET Workspace\\ClaimsPortal\\ClaimsPortal.Web\\Views\\Policy\\UpdatePolicy.cshtml",
               "RelativeDocumentMoniker": "ClaimsPortal.Web\\Views\\Policy\\UpdatePolicy.cshtml",
@@ -62,12 +79,11 @@
               "RelativeToolTip": "ClaimsPortal.Web\\Views\\Policy\\UpdatePolicy.cshtml",
               "ViewState": "AQIAACEAAAAAAAAAAAAAACwAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-30T20:00:21.292Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-30T20:00:21.292Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "PolicyController.cs",
               "DocumentMoniker": "D:\\My Works\\.NET Workspace\\ClaimsPortal\\ClaimsPortal.Web\\Controllers\\PolicyController.cs",
               "RelativeDocumentMoniker": "ClaimsPortal.Web\\Controllers\\PolicyController.cs",

@@ -133,6 +133,7 @@ D:\My Works\.NET Workspace\ClaimsPortal\ClaimsPortal.Web\obj\Debug\net8.0\Claims
 D:\My Works\.NET Workspace\ClaimsPortal\ClaimsPortal.Web\obj\Debug\net8.0\ClaimsPortal.Web.MvcApplicationPartsAssemblyInfo.cache
 D:\My Works\.NET Workspace\ClaimsPortal\ClaimsPortal.Web\obj\Debug\net8.0\ClaimsPortal.Web.RazorAssemblyInfo.cache
 D:\My Works\.NET Workspace\ClaimsPortal\ClaimsPortal.Web\obj\Debug\net8.0\ClaimsPortal.Web.RazorAssemblyInfo.cs
+D:\My Works\.NET Workspace\ClaimsPortal\ClaimsPortal.Web\obj\Debug\net8.0\ClaimsPortal.Web.sourcelink.json
 D:\My Works\.NET Workspace\ClaimsPortal\ClaimsPortal.Web\obj\Debug\net8.0\staticwebassets.build.json
 D:\My Works\.NET Workspace\ClaimsPortal\ClaimsPortal.Web\obj\Debug\net8.0\staticwebassets.development.json
 D:\My Works\.NET Workspace\ClaimsPortal\ClaimsPortal.Web\obj\Debug\net8.0\staticwebassets\msbuild.ClaimsPortal.Web.Microsoft.AspNetCore.StaticWebAssets.props
@@ -149,4 +150,3 @@ D:\My Works\.NET Workspace\ClaimsPortal\ClaimsPortal.Web\obj\Debug\net8.0\refint
 D:\My Works\.NET Workspace\ClaimsPortal\ClaimsPortal.Web\obj\Debug\net8.0\ClaimsPortal.Web.pdb
 D:\My Works\.NET Workspace\ClaimsPortal\ClaimsPortal.Web\obj\Debug\net8.0\ClaimsPortal.Web.genruntimeconfig.cache
 D:\My Works\.NET Workspace\ClaimsPortal\ClaimsPortal.Web\obj\Debug\net8.0\ref\ClaimsPortal.Web.dll
-D:\My Works\.NET Workspace\ClaimsPortal\ClaimsPortal.Web\obj\Debug\net8.0\ClaimsPortal.Web.sourcelink.json
