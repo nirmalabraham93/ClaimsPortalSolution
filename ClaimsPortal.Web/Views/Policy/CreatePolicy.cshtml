@@ -1,0 +1,130 @@
+﻿@model ClaimsPortal.Web.ViewModels.CreatePolicyViewModel
+
+@{
+    ViewData["Title"] = "Create New Policy";
+}
+
+<form asp-action="CreatePolicy" asp-controller="Policy" method="post">    
+    <div class="form-group">
+        <h6>Policy Holder Information</h6>
+         <div class="form-row">
+            <div class="form-group col-md-6">
+                <input asp-for="FirstName" class="form-control" placeholder="First name"/>
+                <span asp-validation-for="FirstName" class="text-danger"></span>
+            </div>
+            <div class="form-group col-md-6">
+                <input asp-for="LastName" class="form-control" placeholder="Last name"/>
+                <span asp-validation-for="LastName" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6">                
+                <input asp-for="Email" class="form-control" placeholder="Email"/>
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group col-md-6">
+                <input asp-for="PhoneNumber" class="form-control" placeholder="Phone number"/>
+                <span asp-validation-for="PhoneNumber" class="text-danger"></span> 
+            </div>
+        </div>
+            <div class="form-group">
+                <input asp-for="Address" class="form-control" placeholder="Address"/>
+                <span asp-validation-for="Address" class="text-danger"></span> 
+            </div>
+        <div class="form-row">
+            <div class="form-group col-md-4">
+               <input asp-for="City" class="form-control" placeholder="City"/>
+               <span asp-validation-for="City" class="text-danger"></span>
+            </div>
+            <div class="form-group col-md-4">
+                <select asp-for="State" class="form-control">
+                <option selected>State..</option>
+                <option>Kerala</option>
+                <option>Karnataka</option>
+                <option>Tamilnadu</option>
+                </select>
+                <span asp-validation-for="State" class="text-danger"></span>
+            </div>
+            <div class="form-group col-md-4">
+                <input asp-for="ZIP" class="form-control" placeholder="ZIP code"/>
+                 <span asp-validation-for="ZIP" class="text-danger"></span>
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        <h6>Policy Information</h6>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <select asp-for="PolicyType" class="form-control">
+                <option selected>Policy type..</option>
+                <option>B2B</option>
+                <option>Comprehensive</option>
+                <option>Thirdparty</option>
+                </select>
+                <span asp-validation-for="PolicyType" class="text-danger"></span>
+            </div>
+            <div class="form-group col-md-6">
+                <input asp-for="PolicyNumber" class="form-control" placeholder="Policy number"/>
+                <span asp-validation-for="PolicyNumber" class="text-danger"></span>
+            </div>
+        </div>
+         <div class="form-row">
+            <div class="form-group col-md-6">
+               <input asp-for="CoverageStartDate" type="date" class="form-control" placeholder="Coverage start date"/>
+               <span asp-validation-for="CoverageStartDate" class="text-danger"></span>
+            </div>
+            <div class="form-group col-md-6">
+                <input asp-for="CoverageEndDate" type="date" class="form-control" placeholder="Coverage end date"/>
+                <span asp-validation-for="CoverageEndDate" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <input asp-for="CoverageAmount" class="form-control" placeholder="Coverage amount"/>
+                <span asp-validation-for="CoverageAmount" class="text-danger"></span>
+            </div>
+            <div class="form-group col-md-6">
+                 <input asp-for="PremiumAmount" class="form-control" placeholder="Premium amount"/>
+                <span asp-validation-for="PremiumAmount" class="text-danger"></span>
+            </div>
+         </div>
+    </div>
+    <div class="form-group">
+        <h6>Vehicle Information</h6>
+        <div class="form-row">
+            <div class="form-group col-md-4">
+               <input asp-for="Make" class="form-control" placeholder="Make"/>
+               <span asp-validation-for="Make" class="text-danger"></span>
+            </div>
+            <div class="form-group col-md-4">
+               <input asp-for="Model" class="form-control" placeholder="Model"/>
+               <span asp-validation-for="Model" class="text-danger"></span>
+            </div>
+            <div class="form-group col-md-4">
+               <input asp-for="Year" class="form-control" placeholder="Year"/>
+               <span asp-validation-for="Year" class="text-danger"></span>
+            </div>
+         </div>
+           <div class="form-row">
+            <div class="form-group col-md-4">
+              <input asp-for="VIN" class="form-control" placeholder="Vehicle identification number"/>
+              <span asp-validation-for="VIN" class="text-danger"></span>
+            </div>
+            <div class="form-group col-md-4">
+              <input asp-for="EngineNumber" class="form-control" placeholder="Engine number"/>
+              <span asp-validation-for="EngineNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group col-md-4">
+              <input asp-for="ChasisNumber" class="form-control" placeholder="Chasis number"/>
+              <span asp-validation-for="ChasisNumber" class="text-danger"></span>
+            </div>
+         </div>
+    </div>
+    <button type="submit" class="btn btn-success">Submit</button>
+    <a asp-controller="Home" asp-action="Index" class="btn btn-danger">Cancel</a>
+</form>
+@section Scripts {
+    @* Ensure you have jQuery validation and unobtrusive validation scripts *@
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.12/jquery.validate.unobtrusive.min.js"></script>
+}

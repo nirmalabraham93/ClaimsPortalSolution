@@ -1,0 +1,15 @@
+D:\My Works\.NET Workspace\ClaimsPortal\ClaimsPortal.Service\bin\Debug\net8.0\ClaimsPortal.Service.deps.json
+D:\My Works\.NET Workspace\ClaimsPortal\ClaimsPortal.Service\bin\Debug\net8.0\ClaimsPortal.Service.dll
+D:\My Works\.NET Workspace\ClaimsPortal\ClaimsPortal.Service\bin\Debug\net8.0\ClaimsPortal.Service.pdb
+D:\My Works\.NET Workspace\ClaimsPortal\ClaimsPortal.Service\bin\Debug\net8.0\ClaimsPortal.Data.dll
+D:\My Works\.NET Workspace\ClaimsPortal\ClaimsPortal.Service\bin\Debug\net8.0\ClaimsPortal.Data.pdb
+D:\My Works\.NET Workspace\ClaimsPortal\ClaimsPortal.Service\obj\Debug\net8.0\ClaimsPortal.Service.csproj.AssemblyReference.cache
+D:\My Works\.NET Workspace\ClaimsPortal\ClaimsPortal.Service\obj\Debug\net8.0\ClaimsPortal.Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\My Works\.NET Workspace\ClaimsPortal\ClaimsPortal.Service\obj\Debug\net8.0\ClaimsPortal.Service.AssemblyInfoInputs.cache
+D:\My Works\.NET Workspace\ClaimsPortal\ClaimsPortal.Service\obj\Debug\net8.0\ClaimsPortal.Service.AssemblyInfo.cs
+D:\My Works\.NET Workspace\ClaimsPortal\ClaimsPortal.Service\obj\Debug\net8.0\ClaimsPortal.Service.csproj.CoreCompileInputs.cache
+D:\My Works\.NET Workspace\ClaimsPortal\ClaimsPortal.Service\obj\Debug\net8.0\ClaimsPo.91767846.Up2Date
+D:\My Works\.NET Workspace\ClaimsPortal\ClaimsPortal.Service\obj\Debug\net8.0\ClaimsPortal.Service.dll
+D:\My Works\.NET Workspace\ClaimsPortal\ClaimsPortal.Service\obj\Debug\net8.0\refint\ClaimsPortal.Service.dll
+D:\My Works\.NET Workspace\ClaimsPortal\ClaimsPortal.Service\obj\Debug\net8.0\ClaimsPortal.Service.pdb
+D:\My Works\.NET Workspace\ClaimsPortal\ClaimsPortal.Service\obj\Debug\net8.0\ref\ClaimsPortal.Service.dll

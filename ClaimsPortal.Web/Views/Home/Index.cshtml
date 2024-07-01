@@ -1,0 +1,11 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+}
+<div class="text-center">
+    <a asp-controller="Policy" asp-action="CreatePolicy" class="btn btn-primary">Add Policy</a>
+    <a asp-controller="Policy" asp-action="ViewPolicy" class="btn btn-success">View Policy</a>
+</div>

@@ -1,0 +1,47 @@
+﻿<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+@model List<ClaimsPortal.Web.ViewModels.PolicyViewModel>
+
+@if (Model == null || !Model.Any())
+{
+    <p>No policies found.</p>
+}
+else
+{
+    <table class="table table-bordered table-hover">
+        <thead class="thead-light">
+            <tr>
+                <th>Policy Number</th>
+                <th>Policy Type</th>
+                <th>Start Date</th>
+                <th>End Date</th>
+                <th>Policy Holder</th>
+                <th>Email</th>
+                <th>Make</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var policy in Model)
+            {
+                <tr>
+                    <td>@policy.PolicyNumber</td>
+                    <td>@policy.PolicyType</td>
+                    <td>@policy.CoverageStartDate.ToShortDateString()</td>
+                    <td>@policy.CoverageEndDate.ToShortDateString()</td>
+                    <td>@policy.PolicyHolderName</td>
+                    <td>@policy.PolicyHolderEmail</td>
+                    <td>@policy.VehicleMake</td>
+                    <td>
+                        <a href="@Url.Action("UpdatePolicy", "Policy", new { pid = @policy.PolicyId })" class="btn btn-lg btn-outline-success" role="button">
+                            <i class="fa fa-pencil"></i>
+                        </a>
+                        <a href="@Url.Action("DeletePolicy", "Policy", new { pid = @policy.PolicyId,phid=policy.PolicyHolderId,vid=policy.VehicleId })" class="btn btn-lg btn-outline-danger" role="button">
+                            <i class="fa fa-trash"></i>
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <a asp-controller="Home" asp-action="Index" class="btn btn-danger">Back</a>
+}

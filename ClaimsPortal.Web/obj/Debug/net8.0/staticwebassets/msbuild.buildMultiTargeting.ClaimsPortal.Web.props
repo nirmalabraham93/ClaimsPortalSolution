@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ClaimsPortal.Web.props" />
+</Project>

@@ -1,0 +1,14 @@
+D:\My Works\.NET Workspace\ClaimsPortal\ClaimsPortal.Data\bin\Debug\net8.0\ClaimsPortal.Data.deps.json
+D:\My Works\.NET Workspace\ClaimsPortal\ClaimsPortal.Data\bin\Debug\net8.0\ClaimsPortal.Data.runtimeconfig.json
+D:\My Works\.NET Workspace\ClaimsPortal\ClaimsPortal.Data\bin\Debug\net8.0\ClaimsPortal.Data.dll
+D:\My Works\.NET Workspace\ClaimsPortal\ClaimsPortal.Data\bin\Debug\net8.0\ClaimsPortal.Data.pdb
+D:\My Works\.NET Workspace\ClaimsPortal\ClaimsPortal.Data\obj\Debug\net8.0\ClaimsPortal.Data.csproj.AssemblyReference.cache
+D:\My Works\.NET Workspace\ClaimsPortal\ClaimsPortal.Data\obj\Debug\net8.0\ClaimsPortal.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\My Works\.NET Workspace\ClaimsPortal\ClaimsPortal.Data\obj\Debug\net8.0\ClaimsPortal.Data.AssemblyInfoInputs.cache
+D:\My Works\.NET Workspace\ClaimsPortal\ClaimsPortal.Data\obj\Debug\net8.0\ClaimsPortal.Data.AssemblyInfo.cs
+D:\My Works\.NET Workspace\ClaimsPortal\ClaimsPortal.Data\obj\Debug\net8.0\ClaimsPortal.Data.csproj.CoreCompileInputs.cache
+D:\My Works\.NET Workspace\ClaimsPortal\ClaimsPortal.Data\obj\Debug\net8.0\ClaimsPortal.Data.dll
+D:\My Works\.NET Workspace\ClaimsPortal\ClaimsPortal.Data\obj\Debug\net8.0\refint\ClaimsPortal.Data.dll
+D:\My Works\.NET Workspace\ClaimsPortal\ClaimsPortal.Data\obj\Debug\net8.0\ClaimsPortal.Data.pdb
+D:\My Works\.NET Workspace\ClaimsPortal\ClaimsPortal.Data\obj\Debug\net8.0\ClaimsPortal.Data.genruntimeconfig.cache
+D:\My Works\.NET Workspace\ClaimsPortal\ClaimsPortal.Data\obj\Debug\net8.0\ref\ClaimsPortal.Data.dll

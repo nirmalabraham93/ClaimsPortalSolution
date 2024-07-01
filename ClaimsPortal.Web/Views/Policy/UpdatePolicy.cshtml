@@ -1,0 +1,71 @@
+﻿@model ClaimsPortal.Web.ViewModels.UpdatePolicyViewModel
+
+@{
+    ViewData["Title"] = "Create New Policy";
+}
+
+<form asp-action="UpdatePolicy" asp-controller="Policy" method="post">
+    <div class="form-group">
+        <h6>Policy Holder Information</h6>
+        <input asp-for="PolicyHolderId" type="hidden" />
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <input asp-for="FirstName" class="form-control" placeholder="First name" />
+                <span asp-validation-for="FirstName" class="text-danger"></span>
+            </div>
+            <div class="form-group col-md-6">
+                <input asp-for="LastName" class="form-control" placeholder="Last name" />
+                <span asp-validation-for="LastName" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <input asp-for="Email" class="form-control" placeholder="Email" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group col-md-6">
+                <input asp-for="PhoneNumber" class="form-control" placeholder="Phone number" />
+                <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        <h6>Policy Information</h6>
+        <input asp-for="PolicyId" type="hidden" />
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <input asp-for="CoverageAmount" class="form-control" placeholder="Coverage amount" />
+                <span asp-validation-for="CoverageAmount" class="text-danger"></span>
+            </div>
+            <div class="form-group col-md-6">
+                <input asp-for="PremiumAmount" class="form-control" placeholder="Premium amount" />
+                <span asp-validation-for="PremiumAmount" class="text-danger"></span>
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        <h6>Vehicle Information</h6>
+        <input asp-for="VehicleId" type="hidden" />
+        <div class="form-row">
+            <div class="form-group col-md-4">
+                <input asp-for="Make" class="form-control" placeholder="Make" />
+                <span asp-validation-for="Make" class="text-danger"></span>
+            </div>
+            <div class="form-group col-md-4">
+                <input asp-for="Model" class="form-control" placeholder="Model" />
+                <span asp-validation-for="Model" class="text-danger"></span>
+            </div>
+            <div class="form-group col-md-4">
+                <input asp-for="EngineNumber" class="form-control" placeholder="Engine number" />
+                <span asp-validation-for="EngineNumber" class="text-danger"></span>
+            </div>
+        </div>
+    </div>
+    <button type="submit" class="btn btn-success">Update</button>
+    <a asp-controller="Home" asp-action="Index" class="btn btn-danger">Cancel</a>
+</form>
+@section Scripts {
+    @* Ensure you have jQuery validation and unobtrusive validation scripts *@
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.12/jquery.validate.unobtrusive.min.js"></script>
+}
