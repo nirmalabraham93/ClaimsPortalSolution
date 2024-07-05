@@ -53,6 +53,9 @@ namespace ClaimsPortal.Web.Controllers
 
                 TempData["SuccessMessage"] = "Policy Added Successfully!";
 
+                // Clear ModelState errors for a clean redirect
+                ModelState.Clear();
+
                 return RedirectToAction("Index", "Home");
             }
             catch (Exception ex)

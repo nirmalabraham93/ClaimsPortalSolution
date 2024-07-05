@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClaimsPortal.Data", "ClaimsPortal.Data\ClaimsPortal.Data.csproj", "{CF2EDEBE-48CF-4EF2-A99A-7C86AA085A4F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClaimsPortal.Data", "ClaimsPortal.Data\ClaimsPortal.Data.csproj", "{CF2EDEBE-48CF-4EF2-A99A-7C86AA085A4F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClaimsPortal.Service", "ClaimsPortal.Service\ClaimsPortal.Service.csproj", "{9515F4D7-B4D5-4744-8C72-2F47A18B39E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClaimsPortal.Service", "ClaimsPortal.Service\ClaimsPortal.Service.csproj", "{9515F4D7-B4D5-4744-8C72-2F47A18B39E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClaimsPortal.Web", "ClaimsPortal.Web\ClaimsPortal.Web.csproj", "{DB42576B-E92D-4433-9163-9D5884CD4CDB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClaimsPortal.Web", "ClaimsPortal.Web\ClaimsPortal.Web.csproj", "{DB42576B-E92D-4433-9163-9D5884CD4CDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClaimsPortal.Tests", "ClaimsPortal.Tests\ClaimsPortal.Tests.csproj", "{CE9B50AF-03FB-4BED-A402-26DD360F9FAB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{DB42576B-E92D-4433-9163-9D5884CD4CDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB42576B-E92D-4433-9163-9D5884CD4CDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB42576B-E92D-4433-9163-9D5884CD4CDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE9B50AF-03FB-4BED-A402-26DD360F9FAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE9B50AF-03FB-4BED-A402-26DD360F9FAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE9B50AF-03FB-4BED-A402-26DD360F9FAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE9B50AF-03FB-4BED-A402-26DD360F9FAB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
